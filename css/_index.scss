@@ -1,0 +1,126 @@
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+	background: #eee;
+	border: 10px solid #666;
+}
+
+header {
+	margin: 64px;
+
+	h2 a {
+		border-bottom: none;
+	
+		&:hover {
+			border-bottom: none;
+		}
+	
+	}
+
+}
+
+
+
+/* Grid Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h5 span {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.grid-page {
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+a img {
+	border: 4px solid $color-background;
+
+	-webkit-transition: border .3s;
+	-moz-transition: border .3s;
+	-o-transition: border .3s;
+	transition: border .3s;
+
+	&:hover {
+		border: 4px solid $color-tertiary;
+	}
+
+}
+
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+} 
+
+
+
+
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+	background: $color-background-footer;
+}
+
+.contact {
+	padding-top: 80px;
+	padding-bottom: 64px;
+	text-align: center;
+
+	p {
+		color: $color-secondary;
+	}
+
+	a {
+		border-bottom: 1px dotted #fff;
+		color: #fff;
+		text-decoration: none;
+
+		-webkit-transition: color border-bottom .3s;
+		-moz-transition: color .3s;
+		-o-transition: color .3s;
+		transition: color .3s;
+
+		&:hover {
+			border-bottom: 1px dotted $color-tertiary;
+			color: #CF4647;
+		}
+	}
+}
+
+div.social a {
+	border-bottom: none;
+}
+
+.icon {
+	color: $color-secondary;
+	display: inline-block;
+	font-size: 24px;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+	vertical-align: middle;
+
+	-webkit-transition: color .3s;
+	-moz-transition: color .3s;
+	-o-transition: color .3s;
+	transition: color .3s;
+	
+	&:hover {
+		color: $color-tertiary;
+	}
+
+	&:first-child {
+		margin-right: 10px;
+	}
+	
+	&:last-child {
+	  	margin-left: 10px;
+	}
+}
